@@ -1,0 +1,3 @@
+# Dart API Data Fetching Bug
+
+This repository demonstrates a common error in Dart code when fetching data from an API:  failure to handle null values in JSON responses.  The `bug.dart` file contains code that fetches data and attempts to access the `name` field, which may not always exist.  This can cause a runtime error if the 'name' key is absent. The `bugSolution.dart` file shows a corrected version of the code that includes null checks to prevent such errors.
